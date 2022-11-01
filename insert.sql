@@ -70,13 +70,14 @@ VALUES ('Q1',180, 1),
 ('G1', 153, 9),
 ('G2', 164, 9),
 ('G3', 211, 9),
+('G4', 80, 9),
 ('Q3 my Q3',187, 1),
 ('F2 домой', 176, 7);
 
 INSERT INTO collection (title, release_year)
-VALUES ('Collection 1',2015),
-('Colection 2', 2018),
-('Collection 3',2019),
+VALUES ('Collection 1', 2015),
+('Collection 2', 2018),
+('Collection 3', 2019),
 ('Collection 4', 2017),
 ('Collection 5', 2020),
 ('Collection 6', 2021),

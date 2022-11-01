@@ -33,4 +33,5 @@ WHERE artist_name NOT LIKE '% %';
 
 SELECT title 
 FROM track
-WHERE lower(title) like '%my%' or lower(title) like '%мой%';
+WHERE lower(title) LIKE '%my%' OR 
+	  lower(title) LIKE '%мой%';
